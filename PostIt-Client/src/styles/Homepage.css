@@ -1,0 +1,45 @@
+/** @format */
+
+.hero_section {
+  background-image: url(../assets/images/Hero_image.png);
+  background-repeat: no-repeat;
+  background-size: 160% 100%;
+  padding: 50px 0;
+}
+
+
+.hero_section p {
+  width: 90%;
+  max-width: 480px;
+  line-height: 30px;
+}
+
+@media (min-width: 425px) {
+  .hero_section {
+    padding: 80px 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .hero_section {
+    background-size: 140% 100%;
+    padding: 120px 0;
+  }
+}
+@media (min-width: 765px) {
+  .hero_section {
+    background-image: url(../assets/images/Hero_image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 120px 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero_section {
+    background-image: url(../assets/images/Hero_image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 180px 0;
+  }
+}
